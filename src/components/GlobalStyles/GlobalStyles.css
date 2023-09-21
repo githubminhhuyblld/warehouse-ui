@@ -1,6 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary-color: #f57224;
+    --white-color: #ffffff;
+    --text-color: #212121;
+    --title-color: #333;
+    --background: rgba(0, 0, 0, 0.03);
+    --text-navbar: #0f1568;
+
+    /*height*/
+    --top-navbar-height: 30px;
+    --height-header: 75px;
+    --height-navbar-wrapper: 34px;
+    --padding-top: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*html {*/
+/*    font-size: 62.5%;*/
+/*}*/
+
+body {
+    text-rendering: optimizeSpeed;
+    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei,
+    Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體,
+    Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
+}
+
+h1.h2, h3, h4, h5, h6 {
+    margin: 0;
+}
 
 
-.red{
-    color: red;
-    font-size: 40px;
+a {
+    text-decoration: none;
 }
