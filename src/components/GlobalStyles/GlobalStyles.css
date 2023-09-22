@@ -23,22 +23,22 @@
     box-sizing: border-box;
 }
 
-/*html {*/
-/*    font-size: 62.5%;*/
+/*!*html {*!*/
+/*!*    font-size: 62.5%;*!*/
+/*!*}*!*/
+
+/*body {*/
+/*    text-rendering: optimizeSpeed;*/
+/*    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei,*/
+/*    Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體,*/
+/*    Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;*/
 /*}*/
 
-body {
-    text-rendering: optimizeSpeed;
-    font-family: Helvetica Neue, Helvetica, Arial, 文泉驛正黑, WenQuanYi Zen Hei,
-    Hiragino Sans GB, 儷黑 Pro, LiHei Pro, Heiti TC, 微軟正黑體,
-    Microsoft JhengHei UI, Microsoft JhengHei, sans-serif;
-}
-
-h1.h2, h3, h4, h5, h6 {
-    margin: 0;
-}
+/*h1.h2, h3, h4, h5, h6 {*/
+/*    margin: 0;*/
+/*}*/
 
 
-a {
-    text-decoration: none;
-}
+/*a {*/
+/*    text-decoration: none;*/
+/*}*/
